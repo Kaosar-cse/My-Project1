@@ -1,0 +1,197 @@
+/* Extra Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+    h2 {
+        font-size: 26px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .header_icon ul li a {
+        padding: 0px 6px;
+    }
+
+    .plr_15 {
+        padding: 0px 15px !important;
+    }
+
+    .menu .nav-item .nav-link {
+        padding: 5px 7.5px;
+        text-align: center;
+    }
+
+    .menu_part.navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(8, 114, 185, 0.98)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .menu_part.navbar-light .navbar-toggler {
+        color: rgba(8, 114, 185, 0.98);
+        border-color: rgba(8, 114, 185, 0.98);
+    }
+
+    .banner_content h1 {
+        padding-bottom: 5px;
+    }
+
+    .banner_part .carousel-control-next i,
+    .banner_part .carousel-control-prev i {
+        display: none;
+    }
+
+    .overlay_banner {
+        padding: 50px 0px;
+    }
+
+    .banner_part .carousel-indicators {
+        bottom: 0px;
+    }
+
+    .pt_60 {
+        padding-top: 40px;
+    }
+
+    .py_60 {
+        padding: 40px 0px;
+    }
+
+    .common_heading {
+        padding-bottom: 20px;
+    }
+
+    .mmt_80 {
+        margin-top: 80px;
+    }
+
+    .common_heading img {
+        margin-left: -21px;
+    }
+
+    .service_part .common_heading img {
+        margin-left: -54px;
+    }
+
+    .portfolio_part .common_heading img {
+        margin-left: -65px;
+    }
+
+    .testomonial_part .common_heading img {
+        margin-left: -38px;
+    }
+
+    .mmt_30 {
+        margin-top: 30px;
+    }
+
+    .ft_gly .col-4 {
+        max-width: 28.5% !important;
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+    }
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .overlay_banner {
+        padding: 60px 0px;
+    }
+
+    .banner_part .carousel-control-next i,
+    .banner_part .carousel-control-prev i {
+        font-size: 35px;
+    }
+
+    .about_content p:first-child {
+        padding-top: 0px;
+    }
+
+    .pt_60 {
+        padding-top: 45px;
+    }
+
+    .py_60 {
+        padding: 45px 0px;
+    }
+
+    .common_heading {
+        padding-bottom: 25px;
+    }
+
+    .smt_80 {
+        margin-top: 80px;
+    }
+
+    .smt_30 {
+        margin-top: 30px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .banner_part .carousel-control-next i,
+    .banner_part .carousel-control-prev i {
+        font-size: 35px;
+    }
+
+    .about_content p:first-child {
+        padding-top: 0px;
+    }
+
+    .ft_icon i,
+    .team_overlay ul li a {
+        height: 30px;
+        width: 30px;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .team_overlay ul li a i {
+        line-height: 25px;
+    }
+
+    .ft_heading {
+        font-size: 14px;
+    }
+
+    .ft_icon i {
+        line-height: 30px;
+    }
+
+    .ft_nm {
+        overflow: hidden;
+        margin-left: 5px;
+    }
+
+    .ft_menu ul li a {
+        padding: 6px 0px;
+    }
+
+    .ft_gly .col-4 {
+        max-width: 28% !important;
+        margin: 0px 7.5px;
+    }
+
+    .ft_logo p {
+        padding-top: 16px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .banner_part .carousel-control-next,
+    .banner_part .carousel-control-prev {
+        width: 3%;
+        opacity: 1;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
